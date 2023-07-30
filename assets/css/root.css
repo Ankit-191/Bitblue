@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+/* root */
+:root {
+  --fs-xsm: 14px;
+  --fs-sm: 16px;
+  --fs-md: 20px;
+  --fs-lg: 24px;
+  --fs-xl: 32px;
+  --fs-3xl: 40px;
+  --fs-4xl: 48px;
+  --fs-5xl: 54px;
+  --clr-white: #fbfbfb;
+  --clr-blue: #33a7f9;
+  --clr-black: #030a0f;
+  --clr-gray: #e2e8f0;
+  --clr-black-100: #051119;
+}
+/* font family */
+.ff_raleway {
+  font-family: "Raleway", sans-serif;
+}
+/* font size */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+/* font weight */
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+/* color */
+.clr_white {
+  color: var(--clr-white);
+}
+.clr_blue {
+  color: var(--clr-blue);
+}
+/* background color */
+.bg_black {
+  background-color: var(--clr-black);
+}
+.bg_gray {
+  background-color: var(--clr-gray);
+}
+.bg_black_100{
+    background-color: var(--clr-black-100);
+}
+/* line height 128.9% */
+.lh_128{
+  line-height: 128.9%;
+}
